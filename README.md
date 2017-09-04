@@ -7,9 +7,9 @@ This code is used to generate a model for Tika for Content based mime detection 
  1. Identify the type of file you want Tika to detect using this method.
  2. Collect files of the type and also files which are not of this type.
  3. Create three datasets
-     a. Training
-     b. Testing
-     c. Validation 
+    * Training
+    * Testing
+    * Validation 
     The dimensionality for each set is as follows.
     ```m*(256+1)```, where m indicates the number of training/validation/test examples; 256 is the size of features (i.e. byte     frequency histogram which is not preprocessed with a companding function) + 1 for the labeled output.
  4. These can be generated as csv files. 
@@ -19,8 +19,9 @@ This code is used to generate a model for Tika for Content based mime detection 
 For more detailed documentation, download the [Documenation_NNModelIntegrationWithTika.docx](http://github.com/USCDataScience/filetypeDetection/tree/master/Documenation_NNModelIntegrationWithTika.docx) in this project.
 
 
-# Developers: 
+# Contributors
 * [Luke Liush, USC](http://github.com/LukeLiush)
 * [Chris Mattmann, USC & NASA JPL](http://sunset.usc.edu/~mattmann/)
 
-
+# License 
+[Apache License, version 2](http://www.apache.org/licenses/LICENSE-2.0)
