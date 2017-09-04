@@ -18,6 +18,10 @@ This code is used to generate a model for Tika for Content based mime detection 
 
 For more detailed documentation, download the [Documenation_NNModelIntegrationWithTika.docx](http://github.com/USCDataScience/filetypeDetection/tree/master/Documenation_NNModelIntegrationWithTika.docx) in this project.
 
+Questions, comments?
+===================
+Send them to [Chris A. Mattmann](mailto:chris.a.mattmann@jpl.nasa.gov).
+
 
 # Contributors
 * [Luke Liush, USC](http://github.com/LukeLiush)
